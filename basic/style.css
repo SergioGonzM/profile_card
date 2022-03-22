@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url("./assets/Colored\ Shapes.svg");
-    background-repeat:repeat
+    background-image: url("./assets/pttern.jpg");
+    background-repeat:repeat;
 }
 
 h1{
@@ -14,8 +14,17 @@ h1{
     font-size: 50px;
 }
 
+main {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+table{
+    text-align: center;
+    padding-bottom: 20px;
+}
+
 #container{
-    background-color: rgb(233, 221, 221);
+    background-color: rgb(21, 21, 22);
     width: 35%;
     min-width: 350px;
     max-width: 450px;
@@ -23,6 +32,7 @@ h1{
     border-radius: 10px;
     box-shadow: 2px 4px 24px #e0e8ff;
     overflow: hidden;
+    color: #e0e8ff;
 }
 
 #container > img{
@@ -37,10 +47,16 @@ h1{
 
 #skills{
     padding-top: 20px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
     text-align: center;
     font-size: 23px;
+    
 }
+#img1, #img2, #img3{
+    filter:invert();
+}
+
+
 
 #about_title{
     text-align: center;
@@ -58,6 +74,7 @@ h1{
     height: 20%;
     margin-left: 100px;
     margin-right: 100px;
+    margin-top: 20px;
 }
 
 .name{
@@ -75,7 +92,9 @@ h1{
 .about{
     padding-top: 20px;
     text-align:justify;
-    
+    background-color: rgb(29, 29, 28);
+    padding: 8px 50px;
+    border-radius: 5px;
 }
 
 
